@@ -29,7 +29,7 @@ Every execution creates an audit record containing request UUID, timestamp, serv
 
 ## Deployment
 
-The included `Dockerfile` and `railway.json` are ready for Railway. Configure upstream URLs as Railway environment variables when real microservices are available. Logs are intentionally in-memory for this workshop; use a persistent store for production scale.
+The included `Dockerfile` and `railway.json` are ready for Railway. The `api/index.js` adapter and `vercel.json` also support Vercel serverless deployment. Configure upstream URLs as environment variables when real microservices are available. Logs are intentionally in-memory for this workshop; use a persistent store for production scale.
 
 ## Test
 
